@@ -24,7 +24,8 @@ App was created using Python `v.3.8.9`
 
 `python -m pip install django-bootstrap4`
 
-3. Install **python-dotenv** module to use Environment Variables in Django to protect your secrets or database information ie. `SECRET_KEY`.
+3. ***THIS STEP MAKES SURE THAT YOUR SECRETS REMAIN HIDDEN IN CASE OF ONLINE DEPLOYMENT***  
+Install **python-dotenv** module to use Environment Variables in Django to protect your secrets or database information ie. `SECRET_KEY`.
 
 * `python -m pip install python-dotenv`
 * Create a `.env` file at the root of the Project where `manage.py` file is.
